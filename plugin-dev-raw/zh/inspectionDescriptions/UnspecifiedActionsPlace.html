@@ -1,0 +1,21 @@
+<html>
+<body>
+報告為 <code>ActionManager.createActionToolbar()</code> 和 <code>ActionManager.createActionPopupMenu()</code> 傳遞未指定的 <code>place</code> 參數的情況。
+<p>
+  必須指定正確的 <code>place</code> 才能通過 <code>AnActionEvent.getPlace()</code> 區分 <code>update()/actionPerformed()</code> 中動作的用法。
+</p>
+<p>
+範例：
+<pre><code lang="java">
+// 錯誤：
+actionManager.createActionToolbar("", group, false);
+actionManager.createActionToolbar("unknown", group, false);
+actionManager.createActionPopupMenu(ActionPlaces.UNKNOWN, group);
+
+// 正確：
+actionManager.createActionToolbar("MyPlace", group, false);
+actionManager.createActionPopupMenu(ActionPlaces.EDITOR_TOOLBAR, group);
+</code></pre>
+</p>
+</body>
+</html>

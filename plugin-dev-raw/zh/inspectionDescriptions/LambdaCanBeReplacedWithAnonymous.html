@@ -1,0 +1,24 @@
+<html>
+<body>
+報告可以取代為匿名類別的 lambda 表達式。
+<p>
+  如果需要在匿名類別中實作其他方法，則將 lambda 表達式擴展到匿名類別會很有用。
+</p>
+<p>範例：</p>
+<pre><code>
+  s -> System.out.println(s)
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>new Consumer&lt;String&gt;() {
+  @Override
+  public void accept(String s) {
+    System.out.println(s);
+  }
+}</code></pre>
+<!-- tooltip end -->
+<p>
+  <i>Lambda 表達式</i>在 Java 8 中出現。
+  此檢查有助於為向後相容早期 Java 版本而降級。
+</p>
+</body>
+</html>

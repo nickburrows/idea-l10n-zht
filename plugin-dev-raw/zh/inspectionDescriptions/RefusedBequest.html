@@ -1,0 +1,46 @@
+<html>
+<body>
+報告覆寫而不呼叫 super 方法的方法。
+這也稱作<i>被拒絕的遺贈</i>。
+此類別方法可能表明抽象失敗，導致出現難以追蹤的 bug。
+<p>
+  檢查不報告從 <code>java.lang.Object</code>覆寫的方法（<code>clone()</code> 除外）。
+  按照慣例，<code>clone()</code> 應該呼叫其 super 方法，該方法將返回正確類型的物件。</p>
+<p><b>範例 1：</b></p>
+<pre><code>
+  class A {
+    @Override
+    public Object clone() {
+      // 不呼叫 'super.clone()'
+      return new A();
+    }
+  }
+</code></pre>
+<p><b>範例 2：</b></p>
+<pre><code>
+  interface I {
+    default void foo() {}
+  }
+
+  class A implements I {
+    // 停用“忽略 'default' super 方法”時
+    //  對方法發出警告
+    @Override
+    public void foo(){}
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<ul>
+  <li>
+    使用<b>僅在通過以下方式註解 super 方法時報告</b>選項，可以忽略使用所提供列表中的註解標記的 super 方法。 您可以手動將註解新增到此列表中。
+  </li>
+  <li>
+    使用<b>忽略空 super 方法</b>選項，可以忽略僅拋出異常或空的 super 方法。
+  </li>
+  <li>
+    使用<b>忽略 'default' super 方法</b>選項，可以忽略接口中的 <code>default</code> super 方法。
+  </li>
+</ul>
+</body>
+</html>

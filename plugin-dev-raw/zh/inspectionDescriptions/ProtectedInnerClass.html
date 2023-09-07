@@ -1,0 +1,20 @@
+<html>
+<body>
+報告 <code>protected</code> 嵌套類別。
+<p><b>範例：</b></p>
+<pre><code>
+  public class Outer {
+    protected static class Nested {} // 警告
+    protected class Inner {}         // 警告
+    protected enum Mode {}           // 警告取決於設定
+    protected interface I {}         // 警告取決於設定
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<ul>
+  <li>使用<b>忽略 'protected' 內部枚舉</b>選項可忽略 <code>protected</code> 內部枚舉。</li>
+  <li>使用<b>忽略 'protected' 內部接口</b>選項可忽略 <code>protected</code> 內部接口。</li>
+</ul>
+</body>
+</html>

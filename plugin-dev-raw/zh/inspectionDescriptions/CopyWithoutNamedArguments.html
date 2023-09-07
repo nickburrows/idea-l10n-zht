@@ -1,0 +1,26 @@
+<html>
+<body>
+報告對沒有命名實參的資料類別的 <code>copy()</code> 方法的呼叫。
+<p>
+    由於 <code>copy()</code> 函式的所有實參都是可選的，因此可能很難理解修改了哪些屬性。
+    顯式提供參數名稱使得程式碼容易理解，且無需導覽到 <code>data class</code> 宣告。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  data class User(val name: String, val age: Int)
+
+  fun copyUser(user: User): User {
+      return user.copy("John")
+  }
+</code></pre>
+<p>該快速修復程序會為所有的 <code>copy()</code> 實參提供參數名稱：</p>
+<pre><code>
+  data class User(val name: String, val age: Int)
+
+  fun copyUser(user: User): User {
+      return user.copy(name = "John")
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

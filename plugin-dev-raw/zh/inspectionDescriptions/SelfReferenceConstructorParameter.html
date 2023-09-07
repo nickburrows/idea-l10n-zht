@@ -1,0 +1,16 @@
+<html>
+<body>
+報告具有非 null 自參照參數的建構函式。
+<p>此類別建構函式從不實例化類別。</p>
+<p>該快速修復會將參數類型轉換為可 null。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class SelfRef(val ref: SelfRef)
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  class SelfRef(val ref: SelfRef?)
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

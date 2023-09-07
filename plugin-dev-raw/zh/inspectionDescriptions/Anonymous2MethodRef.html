@@ -1,0 +1,22 @@
+<html>
+<body>
+報告可以取代為方法參照的匿名類別。
+<p>
+  請注意，如果將匿名類別轉換為未綁定的方法參照，則 Java Runtime 可以在後續呼叫期間重用相同的方法參照物件。 另一方面，使用匿名類別時，每次都會建立單獨的物件。 因此，在極少數情況下，套用該快速修復可能會導致語意發生變化，例如，當匿名類別實例用作 <code>HashMap</code> 鍵時。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+    Runnable r = new Runnable() {
+      @Override
+      public void run() {
+        System.out.println();
+      }
+    };
+</code></pre>
+<p>該快速修復會將此程式碼更改為壓縮形式：<code>Runnable r = System.out::println;</code>。</p>
+<!-- tooltip end -->
+<p>使用<b>在接口未使用 @FunctionalInterface 註解時報告</b>選項可為未使用 @FunctionalInterface 註解的接口啟用此檢查。</p>
+
+<p>僅當專案或模組的語言級別為 8 或更高時，此檢查才會報告。</p>
+</body>
+</html>

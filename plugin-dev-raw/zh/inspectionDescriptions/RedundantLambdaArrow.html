@@ -1,0 +1,21 @@
+<html>
+<body>
+<p>報告沒有參數的 lambda 中的冗餘 lambda 箭頭。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  fun foo(f: () -> Unit) = f()
+
+  fun bar() {
+      foo { <b>-></b> println("Hi!") }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  fun foo(f: () -> Unit) = f()
+
+  fun bar() {
+      foo { println("Hi!") }
+  }
+</code></pre>
+</body>
+</html>

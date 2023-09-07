@@ -1,0 +1,27 @@
+<html>
+<body>
+<p>報告冗餘的 <code>Companion</code> 參照。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class A {
+      <b>companion object</b> {
+          fun create() = A()
+      }
+  }
+  fun test() {
+      val s = A.<b>Companion</b>.create()
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  class A {
+      <b>companion object</b> {
+          fun create() = A()
+      }
+  }
+  fun test() {
+      val s = A.create()
+  }
+</code></pre>
+</body>
+</html>

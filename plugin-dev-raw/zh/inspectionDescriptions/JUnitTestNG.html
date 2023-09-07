@@ -1,0 +1,29 @@
+<html>
+<body>
+報告可以轉換為基於 TestNG 的單元測試的任何基於 JUnit 的測試類別。
+<p>範例：</p>
+<pre><code>
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class ExampleTest {
+  @Test
+  public void testExample(){
+    assertEquals(2 + 2, 4);
+  }
+}
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class ExampleTest {
+  @Test
+  public void testExample(){
+    Assert.assertEquals(4, 2 + 2);
+  }
+}
+</code></pre>
+</body>
+</html>

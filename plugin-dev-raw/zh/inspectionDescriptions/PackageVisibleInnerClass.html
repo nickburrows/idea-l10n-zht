@@ -1,0 +1,20 @@
+<html>
+<body>
+報告在沒有任何存取修飾符（也稱為 package-private）的情況下宣告的嵌套類別。
+<p><b>範例：</b></p>
+<pre><code>
+  public class Outer {
+    static class Nested {}  // 警告
+    class Inner {}          // 警告
+    enum Mode {}            // 警告取決於設定
+    interface I {}          // 警告取決於設定
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<ul>
+  <li>使用<b>忽略軟體套件可見的內部枚舉</b>選項可忽略 package-private 內部枚舉。</li>
+  <li>使用<b>忽略軟體套件可見的內部接口</b>選項可忽略 package-private 內部接口。</li>
+</ul>
+</body>
+</html>

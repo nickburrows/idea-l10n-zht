@@ -1,0 +1,23 @@
+<html>
+<body>
+報告在屬性 setter 中明確指定的參數類型。
+<p>
+    setter 參數類型始終與屬性類型符合，因此不要求為顯式。
+    “移除顯式類型規範”快速修復允許相應地修改程式碼。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  fun process(x: Int) {}
+
+  var x: Int = 0
+      set(value: Int) = process(value) // &lt;== 'Int' 規格可以安全忽略
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  fun process(x: Int) {}
+
+  var x: Int = 0
+      set(value) = process(value)
+</code></pre>
+</body>
+</html>

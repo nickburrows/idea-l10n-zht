@@ -1,0 +1,32 @@
+<html>
+<body>
+<p>報告 <a href="https://spring.io/projects/spring-webflow">Spring Webflow</a> 基於 XML 的 <code>&lt;flow&gt;</code> 定義中的組態錯誤。</p>
+
+<ul>
+  <li>未解析的 Bean 參照</li>
+  <li>缺少必需的標記或特性</li>
+  <li>屬性類型不正確</li>
+  <li><code>enum</code> 屬性不一致</li>
+  <li>參照 Bean 的類型不正確</li>
+</ul>
+
+<p><b>範例：</b></p>
+<pre><code>
+  &lt;flow
+    start-state="unknown-state" &lt;!-- Cannot resolve symbol 'unknown-state' -&gt;
+    parent="<strong>unknownParentFlow</strong>,another-flow" &lt;!-- 找不到流 'unknownParentFlow' --&gt;&gt;
+
+    &lt;input name=<strong>""</strong> // Value must not be empty
+         type="<strong>foo.com.UnknownType</strong>" &lt;!--Cannot resolve class 'UnknownType'--&gt;
+         value="42"/&gt;
+
+    &lt;exception-handler bean="<strong>dummyBean</strong>"; &lt;!--Bean must be of'org.springframework.webflow.engine.FlowExecutionExceptionHandler' type --&gt;
+
+    &lt;view-state id="validFlowButInvalidState_forParent"
+           parent="another-flow#<strong>unknownParentState</strong>"/&gt; &lt;!-- 無法解析父狀態 'unknownParentState'--&gt;
+
+    &lt;bean-import resource="<strong>foo.xml</strong>" /&gt; &lt;!-- 無法解析檔案 'foo.xml' --&gt;
+    &lt;bean-import resource="<strong>highlighting-20-wrong-flow.xml</strong>"/&gt; &lt;!-- 不是有效的 spring.xml 檔案 --&gt;
+  &lt;/flow&gt;</code></pre>
+</body>
+</html>

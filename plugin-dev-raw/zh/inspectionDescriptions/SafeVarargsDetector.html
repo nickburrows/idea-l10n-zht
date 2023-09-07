@@ -1,0 +1,31 @@
+<html>
+<body>
+報告所有包含可變 arity 且可以註解為 <code>@SafeVarargs</code> 的方法。
+<code>@SafeVarargs</code> 註解禁止有關在呼叫點建立參數化陣列的未檢查的警告。
+<p><b>範例：</b></p>
+<pre><code>
+  public class Foo&lt;T&gt; {
+    private List&lt;T&gt; list = new ArrayList&lt;&gt;();
+
+    public final void safeVarargs(T... elements) {
+      Collections.addAll(list, elements);
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  public class Foo&lt;T&gt; {
+    private List&lt;T&gt; list = new ArrayList&lt;&gt;();
+
+    @SafeVarargs
+    public final void safeVarargs(T... elements) {
+      Collections.addAll(list, elements);
+    }
+  }
+</code></pre>
+<p>
+  Java 1.6 或更早版本的 JVM 不支持此註解。
+</p>
+<!-- tooltip end -->
+</body>
+</html>

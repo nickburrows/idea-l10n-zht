@@ -1,0 +1,30 @@
+<html>
+<body>
+報告在單個宣告中宣告的多個變數，並建議為每個變數建立單獨的宣告。
+<p>一些編碼標準禁止此類別宣告。</p>
+<p>範例：</p>
+<pre><code>
+  int x = 1, y = 2;
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  int x = 1;
+  int y = 2;
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<ul>
+<li>使用 <b>忽略 'for' 迴圈宣告</b> 選項可忽略在 'for' 迴圈語句的初始化中宣告的多個變數，例如：
+<pre><code>
+  <b>for</b> (int i = 0, max = list.size(); i &gt; max; i++) {}
+</code></pre>
+</li>
+<li>使用 <b>僅在單個宣告中對不同的陣列維度發出警告</b> 選項，以僅在單個宣告中宣告具有不同陣列維度的變數時發出警告，例如：
+<pre><code>
+  String s = "", array[];
+</code></pre>
+</li>
+</ul>
+<p><small>2019.2 最新變化</small></p>
+</body>
+</html>

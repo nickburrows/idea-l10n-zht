@@ -1,0 +1,26 @@
+<html>
+<body>
+報告可以取代為 Kotlin 合成屬性的 Java <code>get</code> 和 <code>set</code> 方法呼叫。
+<p><b>使用屬性存取語法</b>快速修復可用於自動修正程式碼。</p>
+<p>範例：</p>
+<pre><code>
+  // Java:
+  public class JavaClassWithGetter {
+      private final String expr = "result";
+
+      // ...
+
+      public String getExpr() {
+          return expr;
+      }
+  }
+</code></pre>
+<pre><code>
+  // Kotlin:
+  fun test(j: JavaClassWithGetter) {
+      // ...
+      j.getExpr() // &lt;== 快速修復會將表達式簡化為 'j.expr'
+  }
+</code></pre>
+</body>
+</html>

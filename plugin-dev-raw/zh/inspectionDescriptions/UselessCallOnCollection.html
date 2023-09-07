@@ -1,0 +1,14 @@
+<html>
+<body>
+報告標準庫中已篩選的集合上的 <code>filter…</code> 呼叫。
+<p>只有在類型不同於結果類型的接收器上調用時，標準庫中 <code>filterNotNull()</code> 或 <code>filterIsInstance</code> 之類的幾個函式才有意義。 在其他情況下，可以忽略此類別呼叫，因為結果將相同。</p>
+<p><b>移除冗餘呼叫</b>快速修復可用於自動修正程式碼。</p>
+<p>範例：</p>
+<pre><code>
+  fun test(list: List&lt;String&gt;) {
+      val x = list.filterNotNull() // 快速修復會簡化為 'list'
+      val y = list.filterIsInstance&lt;String&gt;() // 快速修復會簡化為 'list'
+  }
+</code></pre>
+</body>
+</html>

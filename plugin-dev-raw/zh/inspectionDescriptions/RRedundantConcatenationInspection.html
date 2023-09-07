@@ -1,0 +1,23 @@
+<html>
+<body>
+報告帶有零個或一個實參的 <code>c</code> 呼叫。 該檢查會建議移除冗餘呼叫。
+<p><b>範例：</b></p>
+<pre><code>
+    a &lt;- c()
+</code></pre>
+<p>和</p>
+<pre><code>
+    c(10) + 10
+</code></pre>
+<p>
+  當您套用快速修復時，程式碼變為：
+</p>
+<pre><code>
+    a &lt;- NULL
+</code></pre>
+<p>和</p>
+<pre><code>
+    10 + 10
+</code></pre>
+</body>
+</html>

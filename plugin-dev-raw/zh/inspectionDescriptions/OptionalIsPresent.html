@@ -1,0 +1,16 @@
+<html>
+<body>
+報告可用函式樣式覆寫的、用作 <code>if</code> 或條件表達式條件的 <code>Optional</code> 表達式。
+結果往往更短，更易於閱讀。
+<p>範例：</p>
+<pre><code>
+  if (str.isPresent()) str.get().trim();
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  str.ifPresent(String::trim);
+</code></pre>
+<!-- tooltip end -->
+<p>僅當專案或模組的語言級別為 8 或更高時，此檢查才會報告。</p>
+</body>
+</html>

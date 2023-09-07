@@ -1,0 +1,27 @@
+<html>
+<body>
+報告 <code>val</code> 或 <code>var</code> 可被移除的主建構函式參數。
+<p>
+    在建構函式中宣告的類別屬性會增加記憶體消耗。
+    如果參數值僅在建構函式中使用，則可以省略它們。
+</p>
+<p>請注意，參照的物件可能是之前被垃圾回收。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class Task(val name: String) {
+      init {
+          print("Task created: $name")
+      }
+  }
+</code></pre>
+<p>該快速修復會移除額外的 <code>val</code> 或 <code>var</code> 關鍵字：</p>
+<pre><code>
+  class Task(name: String) {
+      init {
+          print("Task created: $name")
+      }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

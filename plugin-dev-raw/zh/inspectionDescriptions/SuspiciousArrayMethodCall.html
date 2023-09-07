@@ -1,0 +1,14 @@
+<html>
+<body>
+報告對 <code>Arrays.fill()</code> 等實參類型不符合的非泛型陣列動作方法的呼叫。
+此類別呼叫不會執行任何有用的工作，很可能是錯誤的。
+<p><b>範例：</b></p>
+<pre><code>
+  int foo(String[] strings) {
+    return Arrays.binarySearch(strings, 1);
+  }
+</code></pre>
+<!-- tooltip end -->
+<p><small>2017.2 最新變化</small></p>
+</body>
+</html>

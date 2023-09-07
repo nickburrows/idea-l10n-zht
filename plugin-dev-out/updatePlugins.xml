@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/master/plugin-dev-out/zh.jar"
+    version="232.172">
+    <idea-version since-build="232.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/master/plugin-dev-out/zh.jar"
+    version="232.172">
+    <idea-version since-build="232.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v232.105/plugin-dev-out/zh.jar"
+    version="232.105">
+    <idea-version since-build="232.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v232.105/plugin-dev-out/zh.jar"
+    version="232.105">
+    <idea-version since-build="232.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.282/plugin-dev-out/zh.jar"
+    version="231.282">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.282/plugin-dev-out/zh.jar"
+    version="231.282">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.250/plugin-dev-out/zh.jar"
+    version="231.250">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.250/plugin-dev-out/zh.jar"
+    version="231.250">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.232/plugin-dev-out/zh.jar"
+    version="231.232">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.232/plugin-dev-out/zh.jar"
+    version="231.232">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.186/plugin-dev-out/zh.jar"
+    version="231.186">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.186/plugin-dev-out/zh.jar"
+    version="231.186">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.185/plugin-dev-out/zh.jar"
+    version="231.185">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.185/plugin-dev-out/zh.jar"
+    version="231.185">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.174/plugin-dev-out/zh.jar"
+    version="231.174">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.174/plugin-dev-out/zh.jar"
+    version="231.174">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.158/plugin-dev-out/zh.jar"
+    version="231.158">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v231.158/plugin-dev-out/zh.jar"
+    version="231.158">
+    <idea-version since-build="231.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.228/plugin-dev-out/zh.jar"
+    version="223.228">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.228/plugin-dev-out/zh.jar"
+    version="223.228">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.224/plugin-dev-out/zh.jar"
+    version="223.224">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.224/plugin-dev-out/zh.jar"
+    version="223.224">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.218/plugin-dev-out/zh.jar"
+    version="223.218">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.218/plugin-dev-out/zh.jar"
+    version="223.218">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.143/plugin-dev-out/zh.jar"
+    version="223.143">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.143/plugin-dev-out/zh.jar"
+    version="223.143">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.35/plugin-dev-out/zh.jar"
+    version="223.35">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v223.35/plugin-dev-out/zh.jar"
+    version="223.35">
+    <idea-version since-build="223.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.202/plugin-dev-out/zh.jar"
+    version="222.202">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.202/plugin-dev-out/zh.jar"
+    version="222.202">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.168/plugin-dev-out/zh.jar"
+    version="222.168">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.168/plugin-dev-out/zh.jar"
+    version="222.168">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.151/plugin-dev-out/zh.jar"
+    version="222.151">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.151/plugin-dev-out/zh.jar"
+    version="222.151">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.84/plugin-dev-out/zh.jar"
+    version="222.84">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v222.84/plugin-dev-out/zh.jar"
+    version="222.84">
+    <idea-version since-build="222.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.262/plugin-dev-out/zh.jar"
+    version="221.262">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.262/plugin-dev-out/zh.jar"
+    version="221.262">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.179/plugin-dev-out/zh.jar"
+    version="221.179">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.179/plugin-dev-out/zh.jar"
+    version="221.179">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.114/plugin-dev-out/zh.jar"
+    version="221.114">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v221.114/plugin-dev-out/zh.jar"
+    version="221.114">
+    <idea-version since-build="221.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v213.370/plugin-dev-out/zh.jar"
+    version="213.370">
+    <idea-version since-build="213.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v213.370/plugin-dev-out/zh.jar"
+    version="213.370">
+    <idea-version since-build="213.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v213.284/plugin-dev-out/zh.jar"
+    version="213.284">
+    <idea-version since-build="213.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v213.284/plugin-dev-out/zh.jar"
+    version="213.284">
+    <idea-version since-build="213.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+  <plugin
+    id="com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v212.325/plugin-dev-out/zh.jar"
+    version="212.325">
+    <idea-version since-build="212.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin>
+  <!--plugin
+    id="sc.plugin.com.intellij.zh-tw"
+    url="https://github.com/bluelovers/idea-l10n-zht/raw/v212.325/plugin-dev-out/zh.jar"
+    version="212.325">
+    <idea-version since-build="212.0" />
+    <name>Chinese (Traditional) Language Pack / 繁體中文語言包</name>
+    <description><![CDATA[Jetbrains IntelliJ Chinese (Traditional) Language Pack / 繁體中文語言包]]></description>
+  </plugin-->
+</plugins>

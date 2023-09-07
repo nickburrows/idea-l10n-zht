@@ -1,0 +1,42 @@
+<html>
+<body>
+報告從嵌套類別到外部類的非常數 <code>private</code> 成員的參照。
+對於此類別參照，javac 將生成 package-private 合成存取器方法，這可能會危及安全性，因為看似為 private 的成員實際上可以從整個軟體套件中存取。
+<p>
+  嵌套類別及其外部類會被編譯為單獨的類別檔案。 Java 虛擬機通常會禁止從一個類別存取另一個類別的 private 欄位和方法。 為了實作從嵌套類別存取外部類別的 private 成員，javac 建立了一個 package-private 合成存取器方法。
+</p>
+<p>
+  通過將 <code>private</code> 成員設為 package-private，實際的可存取性變成了顯式。
+  這也會節省少量記憶體，可能會在資源受限的環境中提高性能。
+</p>
+<p>
+  僅當專案或模組的語言級別為 10 或更低時，此檢查才會報告。
+  在 Java 11 和更高版本中，由於基於嵌套的存取控制 (<a href="https://openjdk.org/jeps/181">JEP 181</a>)，不再生成存取器方法。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class Outer {
+    private void x() {}
+
+    class Inner {
+      void y() {
+        x();
+      }
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  class Outer {
+    void x() {}
+
+    class Inner {
+      void y() {
+        x();
+      }
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

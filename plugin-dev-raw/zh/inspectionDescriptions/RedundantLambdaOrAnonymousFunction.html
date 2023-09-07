@@ -1,0 +1,12 @@
+<html>
+<body>
+<p>報告立即建立和使用的 lambda 或匿名函式。</p>
+<!-- tooltip end -->
+<pre><code>
+  <b>fun</b> test() {
+      ({ println() })() // 冗餘
+      (<b>fun</b>() { println() })() // 冗餘
+  }
+</code></pre>
+</body>
+</html>

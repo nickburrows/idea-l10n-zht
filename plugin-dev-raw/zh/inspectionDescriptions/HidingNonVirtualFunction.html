@@ -1,0 +1,17 @@
+<html>
+<body>
+報告與基類別中宣告具有相同簽名並隱藏非虛擬函式的函式。
+<p>範例：</p>
+<pre>
+class Base {
+  public:
+    void operate() {}
+};
+
+class Derived : public Base {
+  public:
+    void operate() {}
+}
+</pre>
+</body>
+</html>

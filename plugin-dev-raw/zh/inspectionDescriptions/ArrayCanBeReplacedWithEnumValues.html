@@ -1,0 +1,19 @@
+<html>
+<body>
+報告可以取代為 <code>EnumType.values()</code> 呼叫的枚舉常數陣列。
+<p>通常，在更新這樣一個枚舉時，您必須同時更新陣列。 但是，如果您改用 <code>EnumType.values()</code>，則無需修改。</p>
+<p>範例：</p>
+<pre><code>
+  enum States {
+     NOT_RUN, IN_PROGRESS, FINISHED;
+  }
+  
+  handleStates(new States[] {NOT_RUN, IN_PROGRESS, FINISHED});
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  handleStates(States.values());
+</code></pre>
+<p><small>2019.1 最新變化</small></p>
+</body>
+</html>

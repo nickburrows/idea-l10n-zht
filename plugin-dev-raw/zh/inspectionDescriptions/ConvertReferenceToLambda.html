@@ -1,0 +1,28 @@
+<html>
+<body>
+報告可以取代為函式文字 (lambda) 的函式參照表達式。
+<p>
+    有時，傳遞 lambda 會更直接，並且與程式碼的其餘部分更一致。
+    此外，如果需要將簡單的呼叫取代為更複雜的呼叫，該修正可能很方便。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  fun Int.isEven() = this % 2 == 0
+
+  fun example() {
+      val numbers = listOf(1, 2, 4, 7, 9, 10)
+      val evenNumbers = numbers.filter(Int::isEven)
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  fun Int.isEven() = this % 2 == 0
+
+  fun example() {
+      val numbers = listOf(1, 2, 4, 7, 9, 10)
+      val evenNumbers = numbers.filter { it.isEven() }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

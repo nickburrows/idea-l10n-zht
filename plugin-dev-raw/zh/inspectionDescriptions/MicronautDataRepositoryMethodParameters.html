@@ -1,0 +1,23 @@
+<html>
+<body>
+<p>報告不正確的 Micronaut Data 儲存庫方法參數類型。</p>
+<!-- tooltip end -->
+<p><b>範例：</b></p>
+<pre><code lang="java">
+  public class Person {
+    private int id;
+    private String lastname;
+    private Address address;
+  }
+
+  public class Address {
+    private int zipCode;
+  }
+
+  public interface CustomerRepository extends CrudRepository&lt;Person, Integer&gt; {
+    List&lt;Person&gt; <strong>findByAddress</strong>(String lastname);  // 應為 'Address' 類型
+    List&lt;Person&gt; <strong>findByAddressZipCode</strong>(String str);   // 應為 'int' 類型
+  }
+</code></pre>
+</body>
+</html>

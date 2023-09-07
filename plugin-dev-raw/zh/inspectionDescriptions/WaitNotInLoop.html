@@ -1,0 +1,31 @@
+<html>
+<body>
+報告不是在迴圈中進行的 <code>wait()</code> 呼叫。
+<p>
+  <code>wait()</code> 通常用於掛起執行緒，直到某個條件變為 true 為止。
+  執行緒可能出於不同的原因而被喚醒，因此在 <code>wait()</code> 呼叫返回後應檢查條件。
+  使用迴圈很容易做到這一點。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class BoundedCounter {
+    private int count;
+    synchronized void inc() throws InterruptedException {
+      if (count >= 10) wait();
+      ++count;
+    }
+  }
+</code></pre>
+<p>優良的程式碼應類似於：</p>
+<pre><code>
+  class BoundedCounter {
+    private int count;
+    synchronized void inc() throws InterruptedException {
+      while (count >= 10) wait();
+      ++count;
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

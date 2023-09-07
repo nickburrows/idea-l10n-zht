@@ -1,0 +1,33 @@
+<html>
+<body>
+報告對其中的呼叫由宣告類別的子類別而不是由宣告類別本身限定的 static 欄位的存取。
+<p>
+  Java 允許此類別限定，但是此類別存取可能表明繼承和覆寫之間存在難以捉摸的混淆。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class Parent {
+    static int foo = 0;
+  }
+
+  class Child extends Parent { }
+
+  void bar() {
+    System.out.println(Child.foo);
+  }
+</code></pre>
+<p>套用快速修復後，結果如下所示：</p>
+<pre><code>
+  class Parent {
+    static int foo = 0;
+  }
+
+  class Child extends Parent { }
+
+  void bar() {
+    System.out.println(Parent.foo);
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

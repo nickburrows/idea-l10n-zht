@@ -1,0 +1,61 @@
+<html>
+<body>
+報告已棄用類別、欄位和方法的用法。
+當可以從已棄用成員的 Javadoc 中提取必要的資訊時，可以使用快速修復來自動轉換已棄用的用法。
+<p><b>範例：</b></p>
+<pre><code>
+  class Interesting {
+
+    /**
+     * @deprecated 改用 {@link #newHotness()}
+     */
+    @Deprecated
+    public void oldAndBusted() {}
+
+    public void newHotness() {}
+  }
+  class ElseWhere {
+    void x(Interesting i) {
+      i.oldAndBusted(); // 此處為已棄用警告
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  class Interesting {
+
+    /**
+     * @deprecated 改用 {@link #newHotness()}
+     */
+    @Deprecated
+    public void oldAndBusted() {}
+
+    public void newHotness() {}
+  }
+  class ElseWhere {
+    void x(Interesting i) {
+      i.newHotness();
+    }
+  }
+</code></pre>
+<p>預設情況下，如果不可能或很難避免，則檢查不會發出警告。  比如下面的程式碼就不會被報告：</p>
+<pre><code>
+  abstract class A { //庫程式碼
+     @Deprecated
+     abstract void m();
+  }
+  class B extends A { //專案程式碼
+     @Override
+     void m() {
+        //doSmth;
+     }
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<p>
+  使用選項可以在棄用成員、abstract 棄用方法覆寫、非 static import 語句、棄用類別的方法或相同的頂級類別中停用此檢查。
+</p>
+
+</body>
+</html>

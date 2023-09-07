@@ -1,0 +1,27 @@
+<html>
+<body>
+報告用其包含類別名限定的靜態匯入成員的用法。
+<p>此類別限定不必要且可移除，因為可以通過成員名稱直接存取靜態匯入成員。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  import static foo.Test.WIDTH;
+
+  class Bar {
+    void bar() {
+      System.out.println(Test.WIDTH);
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  import static foo.Test.WIDTH;
+
+  class Bar {
+    void bar() {
+      System.out.println(WIDTH);
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

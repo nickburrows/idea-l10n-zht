@@ -1,0 +1,17 @@
+<html>
+<body>
+報告 JSP 檔案中參照包含 JSP 檔案的任何 include 指令。<br/>
+
+<p><b>名為 main.jsp 的範例 JSP 檔案：</b></p>
+<pre><code>
+  &lt;jsp:include page="./main.jsp" /&gt; // 錯誤：嘗試包含包含的檔案
+  ...
+</code></pre><br/>
+
+<!-- tooltip end -->
+<p>
+  <b>注意</b>：此類別自包含會導致無限遞迴，因此無法編譯 JSP 檔案。
+</p>
+</body>
+</html>
+

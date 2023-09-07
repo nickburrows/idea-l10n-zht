@@ -1,0 +1,27 @@
+<html>
+<body>
+如果包含類別沒有將 <code>java.lang.Object</code> 作為其實參類型的其他 <code>equals()</code> 多載，則報告採用 <code>java.lang.Object</code> 以外的實參類型的 <code>equals()</code> 方法。
+<p>
+  <code>equals()</code> 的協變版本不會覆寫 <code>Object.equals(Object)</code> 方法。 它可能會在執行時導致意外行為。 例如，如果該類用於建構一個標準集合類別，該集合類別預期會覆寫 <code>Object.equals(Object)</code> 方法。
+</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class Foo {
+      public boolean equals(Foo foo) {  // 警告
+          return false;
+      }
+  }
+  class Bar {
+      public boolean equals(Bar bar) {  // 此處無警告
+          return false;
+      }
+      @Override
+      public boolean equals(Object obj) {
+          return false;
+      }
+  }
+</code></pre>
+<!-- tooltip end -->
+
+</body>
+</html>

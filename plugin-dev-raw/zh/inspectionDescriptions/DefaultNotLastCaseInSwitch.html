@@ -1,0 +1,30 @@
+<html>
+<body>
+報告其中的 <code>default</code> 分支位於另一個 case 前面的 <code>switch</code> 語句或表達式。
+此類別建構會造成不必要的困惑。
+如果可能，可以通過快速修復將 <code>default</code> 分支移到最後位置。
+<p><b>範例：</b></p>
+<pre><code>
+  switch (n) {
+      default:
+          System.out.println();
+          break;
+      case 1:
+          break;
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  switch (n) {
+    case 1:
+        break;
+    default:
+        System.out.println();
+        break;
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<body>
+報告所存取欄位的名稱不是其預期名稱的 getter 或 setter 方法。
+例如，當 <code>getY()</code> 返回 <code>x</code> 欄位時。 這通常可能表明複製貼上錯誤。
+<p><b>範例：</b></p>
+<pre><code>class Point {
+    private int x;
+    private int y;
+
+    public void setX(int x) { // 警告：setter 'setX()' 分配欄位 'y'
+      this.y = x;
+    }
+
+    public int getY() { // 警告：getter 'getY()' 返回欄位 'x'
+      return x;
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>
+  使用下面的複選框可報告類別中欄位的名稱與 getter 或 setter 的名稱相符合的情況。
+<p>
+</body>
+</html>

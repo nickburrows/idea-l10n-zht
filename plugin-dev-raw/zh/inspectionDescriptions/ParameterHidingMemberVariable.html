@@ -1,0 +1,39 @@
+<html>
+<body>
+報告與周圍類別的欄位同名的方法參數。
+由於進行此類別命名，在有意使用同名欄位的情況下，您可能會誤用該參數。
+<p>建議通過快速修復重新命名該參數。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class Main {
+    private String value;
+
+    public Main(String value) {
+      value = value.toUpperCase();
+    }
+  }
+  </code></pre>
+<!-- tooltip end -->
+<p>
+  您可以為此檢查組態以下選項：
+</p>
+<ol>
+  <li>
+    <strong>對屬性 setter 忽略</strong> - 忽略簡單 setter 的參數。
+  </li>
+  <li>
+    <strong>忽略從子類別不可見的超類別欄位</strong> - 忽略超類別中對此方法不可見的 <code>private</code> 欄位。
+  </li>
+  <li>
+    <strong>對建構函式忽略</strong> - 忽略建構函式的參數。
+  </li>
+  <li>
+    <strong>對 abstract 方法忽略</strong> - 忽略 abstract 方法的參數。
+  </li>
+  <li>
+    <strong>對隱藏實例欄位的 static 方法參數忽略</strong> - 忽略隱藏實例欄位的 <code>static</code> 方法的參數，並忽略隱藏外部類別實例欄位的 static 內部類別中實例方法的參數。 雖然不是嚴格意義上的隱藏，但此類別參數仍然令人困惑。
+  </li>
+</ol>
+
+</body>
+</html>

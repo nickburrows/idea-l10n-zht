@@ -1,0 +1,27 @@
+<html>
+<body>
+<p>報告宣告的參數和實際實參之間的差異，也報告不正確的實參（例如重複的命名實參）和不正確的實參順序。</p>
+<p><b>範例：</b></p>
+<pre><code>
+class Foo:
+    def __call__(self, p1: int, *, p2: str = "%"):
+        return p2 * p1
+
+
+bar = Foo()
+bar.__call__() # 參數未填
+bar(5, "#") # 非預期實參
+</code></pre>
+<p>正確的程式碼段如下所示：</p>
+<pre><code>
+class Foo:
+    def __call__(self, p1: int, *, p2: str = "%"):
+        return p2 * p1
+
+
+bar = Foo()
+bar.__call__(5)
+bar(5, p2="#")
+</code></pre>
+</body>
+</html>

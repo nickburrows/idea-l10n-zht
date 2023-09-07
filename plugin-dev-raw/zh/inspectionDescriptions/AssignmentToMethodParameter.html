@@ -1,0 +1,25 @@
+<html>
+<body>
+報告對方法參數的賦值或修改。
+<p>雖然有時是有意為之，但此結構可能令人困惑，因此在一些 Java 專案中被禁止使用。</p>
+<p>該快速修復會新增新變數的宣告。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  void printTrimmed(String s) {
+    s = s.trim();
+    System.out.println(s);
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  void printTrimmed(String s) {
+    String trimmed = s.trim();
+    System.out.println(trimmed);
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>
+  使用<b>如果賦值是原始參數的轉換，則忽略</b>選項可忽略根據先前值修改參數值的賦值。
+</p>
+</body>
+</html>

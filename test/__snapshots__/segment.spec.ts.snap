@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`segment 代碼 - 檔案和代碼模板 1`] = `"檔案和程式碼模板"`;
+
+exports[`segment 信息 - 顯示詳細信息 1`] = `"顯示詳細資訊"`;
+
+exports[`segment 倉庫 - 選擇要合併的倉庫 1`] = `"選擇要合併的儲存庫"`;
+
+exports[`segment 優化 - 优化 import 1`] = `"最佳化 import"`;
+
+exports[`segment 光標 - 从文本光标开始的所有内容 1`] = `"從文字游標開始的所有內容"`;
+
+exports[`segment 內存 - 內存檢視 1`] = `"記憶體檢視"`;
+
+exports[`segment 全局 - 使工具全局可见(&B) 1`] = `"使工具全域可見(&B)"`;
+
+exports[`segment 全局庫 - 导入的项目引用了未知的全局库 1`] = `"匯入的專案參照了未知的全域類別庫"`;
+
+exports[`segment 兼容 - 從右到左文本兼容性問題 1`] = `"從右到左文本相容性問題"`;
+
+exports[`segment 刷新 - 刷新文件历史记录 1`] = `"重新整理檔案歷史記錄"`;
+
+exports[`segment 剪貼板 - 從剪貼板粘貼 1`] = `"從剪貼簿貼上"`;
+
+exports[`segment 加載 - 導入最適合乾淨項目。導入未被清理的項目時，重新加載過程會忽略包含最新目標的源文件。 1`] = `"匯入最適合乾淨專案。匯入未被清理的專案時，重新載入過程會忽略包含最新目標的原始檔。"`;
+
+exports[`segment 博文 - update.snap.message.with.blog.post=IDE 已通过 Snap 更新。<a href=\\\\"{0}\\\\">博文</a>。 1`] = `"update.snap.message.with.blog.post=IDE 已通過 Snap 更新。<a href=\\\\"{0}\\\\">網誌</a>。"`;
+
+exports[`segment 反方向 - 反方向重複上一次尋找 1`] = `"反向重複上一次尋找"`;
+
+exports[`segment 口中 - action.EditSourceInNewWindow.description=在新窗口打开所选条目的编辑器并使之获得焦点 1`] = `"action.EditSourceInNewWindow.description=在新視窗開啟所選條目的編輯器並使之獲得焦點"`;
+
+exports[`segment 口中 - action.EditSourceInNewWindow.text=在新窗口中打开源 1`] = `"action.EditSourceInNewWindow.text=在新視窗中開啟源"`;
+
+exports[`segment 只讀 - action.ToggleReadOnlyAttribute.text=切換只讀特性 1`] = `"action.ToggleReadOnlyAttribute.text=切換唯讀特性"`;
+
+exports[`segment 圖像 - 圖像已複製到剪貼簿 1`] = `"圖片已複製到剪貼簿"`;
+
+exports[`segment 字符串 - 在活動編輯器中尋找字符串 1`] = `"在活動編輯器中尋找字串"`;
+
+exports[`segment 宏 - 无法解析宏 ''{1}'' 的形参 ''{0}'' 1`] = `"無法解析巨集 ''{1}'' 的參數 ''{0}''"`;
+
+exports[`segment 宏 - 查看、更改、录制、播放宏 1`] = `"檢視、更改、錄製、執行巨集"`;
+
+exports[`segment 導入 - 選擇靜態可導入類 1`] = `"選擇靜態可匯入類"`;
+
+exports[`segment 導出 - 選擇包含導出的檢查結果的目錄 1`] = `"選擇包含匯出的檢查結果的目錄"`;
+
+exports[`segment 屏幕 - action.android.emulator.home.button.text=主屏幕 1`] = `"action.android.emulator.home.button.text=主螢幕"`;
+
+exports[`segment 布爾 - 預期布爾類型作為方法 {0} 返回類型 1`] = `"預期布林型態作為方法 {0} 返回類型"`;
+
+exports[`segment 布爾值 - 首選顯式 '-n' 檢查非空字串。使用 '=' 或 '-ne' 檢查布爾值和整數。 1`] = `"首選顯式 '-n' 檢查非空字串。使用 '=' 或 '-ne' 檢查布林值和整數。"`;
+
+exports[`segment 常規 - 常规设定 1`] = `"一般設定"`;
+
+exports[`segment 常量 - 接口中的常量必須具有初始值設定項 1`] = `"接口中的常數必須具有初始值設定項"`;
+
+exports[`segment 形參 - 類型形參 ''{0}'' 不能直接實例化 1`] = `"類型參數 ''{0}'' 不能直接實例化"`;
+
+exports[`segment 應用程序 - 重新加載應用程序設定 1`] = `"重新載入應用程式設定"`;
+
+exports[`segment 打印 - action.Print.text=打印(_P)…
+action.Print.description=打印文件 1`] = `
+"action.Print.text=列印(_P)…
+action.Print.description=列印檔案"
+`;
+
+exports[`segment 掩碼 - 文件掩码(&F) 1`] = `"檔案遮罩(&F)"`;
+
+exports[`segment 插件 - Kotlin 插件有可用的新版本 {0}。<b><a href="#">安裝</a></b> 1`] = `"Kotlin 延伸模組有可用的新版本 {0}。<b><a href="#">安裝</a></b>"`;
+
+exports[`segment 插件 - 支援 依赖项 'java:com.google.inject:guice' 的套件当前尚未安装。 1`] = `"支援 相依項 'java:com.google.inject:guice' 的套件當前尚未安裝。"`;
+
+exports[`segment 搜索 - 正在搜索受影響的檔案路徑… 1`] = `"正在搜尋受影響的檔案路徑…"`;
+
+exports[`segment 數據 - 刷新測試管理數據 1`] = `"重新整理測試管理資料"`;
+
+exports[`segment 數據源 - 外部數據源 1`] = `"外部資料來源"`;
+
+exports[`segment 文件 - export.test.results.output.filename.empty=输出文件名为空 1`] = `"export.test.results.output.filename.empty=輸出檔名為空"`;
+
+exports[`segment 文件 - settings.s3.profile.name=配置文件名称: 1`] = `"settings.s3.profile.name=組態檔名:"`;
+
+exports[`segment 文件夾 - 仅报告位於源文件夹下的空目录 1`] = `"僅報告位於源資料夾下的空目錄"`;
+
+exports[`segment 文件夾 - ，右击任何文件夹， 1`] = `"，右擊任何目錄，"`;
+
+exports[`segment 服務器 - 以下文件被禁止，因为其中一个文件很可能导致服务器崩溃。
+{0} 1`] = `
+"以下檔案被禁止，因為其中一個檔案很可能導致伺服器崩潰。
+{0}"
+`;
+
+exports[`segment 查找 - 查找下一个/移至下一个匹配项(_N)… 1`] = `"尋找下一個/移至下一個符合項(_N)…"`;
+
+exports[`segment 案源 - search.scope.project.non.source.files=项目非源文件 1`] = `"search.scope.project.non.source.files=專案非原始檔"`;
+
+exports[`segment 案源 - search.scope.project.source.files=项目源文件 1`] = `"search.scope.project.source.files=專案原始檔"`;
+
+exports[`segment 構建 - 构建专案 1`] = `"建置專案"`;
+
+exports[`segment 標簽頁 - 關閉組內未固定標簽頁 1`] = `"關閉組內未固定頁籤"`;
+
+exports[`segment 標籤頁 - 關閉組內未固定標籤頁 1`] = `"關閉組內未固定頁籤"`;
+
+exports[`segment 標識符 - 不允許在一個模板中混用駝峰拼寫法和小寫標識符 1`] = `"不允許在一個模板中混用駝峰式命名法和小寫關鍵字"`;
+
+exports[`segment 激活 - 激活工具窗口: {0} 1`] = `"啟用工具視窗: {0}"`;
+
+exports[`segment 用戶 - 與以下用戶完全同步: 1`] = `"與以下使用者完全同步:"`;
+
+exports[`segment 界面 - 新的非模式提交界面可用。从工具窗口提交并在编辑器中查看差异。 1`] = `"新的非強制回應提交介面可用。從工具視窗提交並在編輯器中檢視差異。"`;
+
+exports[`segment 窗口 - 激活工具窗口: {0} 1`] = `"啟用工具視窗: {0}"`;
+
+exports[`segment 粘貼 - 從剪貼板粘貼 1`] = `"從剪貼簿貼上"`;
+
+exports[`segment 緩存 - 沒有緩存，初始編制索引時間會顯著增加 1`] = `"沒有快取，初始編制索引時間會顯著增加"`;
+
+exports[`segment 調試 - 调试 'Project' 1`] = `"偵錯 'Project'"`;
+
+exports[`segment 變量 - 在當前範圍內未初始化或不可用的變量將不會顯示 1`] = `"在當前範圍內未初始化或不可用的變數將不會顯示"`;
+
+exports[`segment 軟件包 - 解除安装软件包。 1`] = `"解除安裝軟體套件。"`;
+
+exports[`segment 進程 - 附加到进程 1`] = `"附加到程序"`;
+
+exports[`segment 運行 - 關閉具有運行進程的工具視窗時: 1`] = `"關閉具有執行進程的工具視窗時:"`;
+
+exports[`segment 選項卡 - action.close.all.unmodified.editors=關閉未修改選項卡(_U) 1`] = `"action.close.all.unmodified.editors=關閉未修改頁籤(_U)"`;
+
+exports[`segment 選項卡 - 編輯器選項卡 1`] = `"編輯器頁籤"`;
+
+exports[`segment 重命名 - rename.react.hook.variable.title=重命名状态变量 1`] = `"rename.react.hook.variable.title=重新命名狀態變數"`;
+
+exports[`segment 隊列 - 消息隊列連接(彈出視窗) 1`] = `"訊息佇列連接(彈出視窗)"`;
+
+exports[`segment 階 - 或更高级别时 1`] = `"或更高級別時"`;
+
+exports[`segment 項目 - <html><body>您想在哪裡打開項目 ''{0}''?</body></html> 1`] = `"<html><body>您想在哪裡打開專案 ''{0}''?</body></html>"`;
+
+exports[`segment 類型作為 - 預期布爾類型作為方法 {0} 返回類型 1`] = `"預期布林型態作為方法 {0} 返回類型"`;
+
+exports[`segment 駝峰拼寫法 - <p><a href="https://kotlinlang.org/docs/coding-conventions.html#function-names">建議的命名慣例</a>：必須以小寫字母開頭，使用駝峰拼寫法並且沒有下划線。</p> 1`] = `"<p><a href="https://kotlinlang.org/docs/coding-conventions.html#function-names">建議的命名慣例</a>：必須以小寫字母開頭，使用駝峰式命名法並且沒有下劃線。</p>"`;
+
+exports[`segment 駱駝拼寫法 - 使用骆驼拼写法样式的方法名，没有 "get" 前缀，第一个字符大写。 例如，属性名称 '_my_property' 被转换为 'MyProperty'。 1`] = `"使用駝峰式命名法樣式的方法名，沒有 "get" 前綴，第一個字元大寫。 例如，屬性名稱 '_my_property' 被轉換為 'MyProperty'。"`;
+
+exports[`should include 上劃線 - ANN.title.length=上划线长度必须与下划线匹配 1`] = `"ANN.title.length=上劃線長度必須與下劃線符合"`;
+
+exports[`should include 下劃線 - ANN.title.length=上划线长度必须与下划线匹配 1`] = `"ANN.title.length=上劃線長度必須與下劃線符合"`;
+
+exports[`should include 主控台 - action.IdeScriptingConsole.description=打开 IDE 脚本控制台 1`] = `"action.IdeScriptingConsole.description=開啟 IDE 腳本主控台"`;
+
+exports[`should include 主控台 - log.monitor.fragment.name=指定要在控制台中显示的日志 1`] = `"log.monitor.fragment.name=指定要在主控台中顯示的日誌"`;
+
+exports[`should include 位元 - 不兼容的按位掩码运算 1`] = `"不相容的位元遮罩運算"`;
+
+exports[`should include 作業 - preferred.theme.autodetect.selector=与操作系统同步 1`] = `"preferred.theme.autodetect.selector=與作業系統同步"`;
+
+exports[`should include 來源 - javascript.validation.message.file.should.be.under.source.root=对象位于源根目录外的文件中，某些功能不可用 1`] = `"javascript.validation.message.file.should.be.under.source.root=物件位於來源根目錄外的檔案中，某些功能不可用"`;
+
+exports[`should include 側邊列 - action.RemoveStripeButton.text=从边栏中移除 1`] = `"action.RemoveStripeButton.text=從側邊列中移除"`;
+
+exports[`should include 傾印 - go.core.dump.dialog.specify.core.dump.validation.message=指定核心转储 1`] = `"go.core.dump.dialog.specify.core.dump.validation.message=指定核心傾印"`;
+
+exports[`should include 元素 - 單元素數組 1`] = `"單元素數組"`;
+
+exports[`should include 元素 - 最大元素數 1`] = `"最大元素數"`;
+
+exports[`should include 全域類別庫 - 导入的项目引用了未知的全局库 1`] = `"匯入的專案參照了未知的全域類別庫"`;
+
+exports[`should include 全螢幕 - action.ToggleZenMode.description=同時切換免打擾和全屏模式 1`] = `"action.ToggleZenMode.description=同時切換免打擾和全螢幕模式"`;
+
+exports[`should include 函式 - array.constructor.too.many.arguments=构造函数数组(Int)的实参过多 1`] = `"array.constructor.too.many.arguments=建構函式陣列(Int)的實參過多"`;
+
+exports[`should include 列 - PhpDebugConfigurable.zero.configuration.install.toolbar.instruction=浏览器工具栏或小书签。 1`] = `"PhpDebugConfigurable.zero.configuration.install.toolbar.instruction=瀏覽器工具列或小書籤。"`;
+
+exports[`should include 列 - checkbox.show.tool.window.bars=显示工具窗口栏 1`] = `"checkbox.show.tool.window.bars=顯示工具視窗列"`;
+
+exports[`should include 列 - navigation.bar=导航栏 1`] = `"navigation.bar=導覽列"`;
+
+exports[`should include 列 - python.sdk.installing.windows.warning=Windows 可能需要您批准后才能安装 Python。请检查任务栏。 1`] = `"python.sdk.installing.windows.warning=Windows 可能需要您批准後才能安裝 Python。請檢查工作列。"`;
+
+exports[`should include 列 - show.status.bar=显示状态栏 1`] = `"show.status.bar=顯示狀態列"`;
+
+exports[`should include 初始設定式 - inspection.compiler.javac.quirks.anno.array.comma.problem=注解数组初始值设定项中的尾随逗号可能会在某些 Javac 版本(例如 JDK 5 和 JDK 6)中导致编译错误。 1`] = `"inspection.compiler.javac.quirks.anno.array.comma.problem=註解陣列初始設定式中的尾隨逗號可能會在某些 Javac 版本(例如 JDK 5 和 JDK 6)中導致編譯錯誤。"`;
+
+exports[`should include 副檔名 - 找不到档案扩展名 ''{0}'' 的脚本引擎 1`] = `"找不到檔案副檔名 ''{0}'' 的腳本引擎"`;
+
+exports[`should include 動作 - title.choose.action.icon=选择操作图标 1`] = `"title.choose.action.icon=選擇動作圖標"`;
+
+exports[`should include 區域 - inspection.redundant.explicit.variable.type.description=可以省略局部变量的显式类型 1`] = `"inspection.redundant.explicit.variable.type.description=可以省略區域變數的顯式類型"`;
+
+exports[`should include 原始碼 - 选择根源代码 1`] = `"選擇根原始碼"`;
+
+exports[`should include 參照 - javascript.validation.message.this.referenced.from.static.context=在 static 上下文中引用了 'this' 1`] = `"javascript.validation.message.this.referenced.from.static.context=在 static 上下文中參照了 'this'"`;
+
+exports[`should include 取色器 - action.ShowColorPicker.text=显示拾色器 1`] = `"action.ShowColorPicker.text=顯示取色器"`;
+
+exports[`should include 右鍵選單 - ，然后从上下文菜单中选择“调试器”。 1`] = `"，然後從右鍵選單中選擇“偵錯器”。"`;
+
+exports[`should include 合併 - PhpLanguageFeature.coalesce.operator=从 PHP 7.0 起才允许使用合并运算符 1`] = `"PhpLanguageFeature.coalesce.operator=從 PHP 7.0 起才允許使用合併運算符"`;
+
+exports[`should include 合併行 - action.EditorJoinLines.text=连接行 1`] = `"action.EditorJoinLines.text=合併行"`;
+
+exports[`should include 呼叫 - equals.called.on.array.display.name=在数组上调用了 'equals()' 1`] = `"equals.called.on.array.display.name=在陣列上呼叫了 'equals()'"`;
+
+exports[`should include 呼叫 - extension.point.analyzer.reason.call.not.loop.value=调用不是循环的迭代值 1`] = `"extension.point.analyzer.reason.call.not.loop.value=呼叫不是迴圈的迭代值"`;
+
+exports[`should include 呼叫 - js.convert.parameters.to.object.non.call.usage.will.not.be.updated=不更新非调用用法 1`] = `"js.convert.parameters.to.object.non.call.usage.will.not.be.updated=不更新非呼叫用法"`;
+
+exports[`should include 執行巨集 - 查看、更改、录制、播放宏 1`] = `"檢視、更改、錄製、執行巨集"`;
+
+exports[`should include 執行緒 - 框架不可用于未挂起的缐程 1`] = `"框架不可用於未掛起的執行緒"`;
+
+exports[`should include 執行緒 - 获取线程转储 1`] = `"獲取執行緒傾印"`;
+
+exports[`should include 堆疊 - 合并相同的堆栈跟踪 1`] = `"合併相同的堆疊追蹤"`;
+
+exports[`should include 套用 - plugins.dialog.button=应用变更 1`] = `"plugins.dialog.button=套用變更"`;
+
+exports[`should include 存取器 - encapsulate.fields.accessors.visibility.border.title=访问器可见性 1`] = `"encapsulate.fields.accessors.visibility.border.title=存取器可見性"`;
+
+exports[`should include 宣告 - 导航到上一个声明 1`] = `"導覽到上一個宣告"`;
+
+exports[`should include 實作 - find.usages.panel.title.implementing.methods.cap=实现方法 1`] = `"find.usages.panel.title.implementing.methods.cap=實作方法"`;
+
+exports[`should include 導向 - 用于将面向对象的域模型映射到关系资料库的框架。 1`] = `"用於將物件導向的域模型映射到關係資料庫的框架。"`;
+
+exports[`should include 導覽列 - action.EditorToggleShowBreadcrumbs.description=在当前编辑器中切换显示路径导航栏 1`] = `"action.EditorToggleShowBreadcrumbs.description=在當前編輯器中切換顯示路徑導覽列"`;
+
+exports[`should include 導覽列 - action.ViewMembersInNavigationBar.text=导航栏中的成员 1`] = `"action.ViewMembersInNavigationBar.text=導覽列中的成員"`;
+
+exports[`should include 小工具 - 此意图会用微件包围所选组合代码。 1`] = `"此意圖會用小工具包圍所選組合程式碼。"`;
+
+exports[`should include 常數 - 闭包使用外部非常量变数 1`] = `"閉包使用外部非常數變數"`;
+
+exports[`should include 建構 - action.PhpGenerateConstructor.description=创建构造函数。 1`] = `"action.PhpGenerateConstructor.description=建立建構函式。"`;
+
+exports[`should include 建立 - action.create.new.directory.or.package=创建新目录或软件包 1`] = `"action.create.new.directory.or.package=建立新目錄或軟體套件"`;
+
+exports[`should include 建立 - empty.project.generator.description=不带模块的项目。用它来创建自由样式的模块结构。将打开“项目结构”对话框，帮助您构建项目结构。 1`] = `"empty.project.generator.description=不帶模組的專案。用它來建立自由樣式的模組結構。將開啟“專案結構”對話框，幫助您建置專案結構。"`;
+
+exports[`should include 憑證 - settings.password.internal.error.no.available.credential.store.implementation=内部错误，没有可用的凭据存储实现。 1`] = `"settings.password.internal.error.no.available.credential.store.implementation=內部錯誤，沒有可用的憑證存儲實作。"`;
+
+exports[`should include 應用 - CFDeploymentEditor.dialog.title.reload.application.settings=重新加载应用程序设置 1`] = `"CFDeploymentEditor.dialog.title.reload.application.settings=重新載入應用程式設定"`;
+
+exports[`should include 應用 - tooltip.text.password.will.be.stored.between.application.sessions=密码将存储在应用程序会话之间 1`] = `"tooltip.text.password.will.be.stored.between.application.sessions=密碼將存儲在應用程式會話之間"`;
+
+exports[`should include 應用 - 应用程序 1`] = `"應用程式"`;
+
+exports[`should include 捲軸 - checkbox.show.editor.preview.popup=悬停在滚动栏上时显示代码透镜 1`] = `"checkbox.show.editor.preview.popup=懸停在捲軸上時顯示程式碼透鏡"`;
+
+exports[`should include 捲軸 - 滚动条 1`] = `"捲軸"`;
+
+exports[`should include 授權 - updates.channel.bundled.key=新版本有一个到期日期，不需要许可证密钥。 1`] = `"updates.channel.bundled.key=新版本有一個到期日期，不需要授權密鑰。"`;
+
+exports[`should include 排程器 - 找不到进程调度程序的可用套接字连接埠 1`] = `"找不到程序排程器的可用套接字連線埠"`;
+
+exports[`should include 摺疊 - action.Tree-selectChildExtendSelection.description=展开收起的节点或将子节点添加到选择范围。 1`] = `"action.Tree-selectChildExtendSelection.description=展開摺疊的節點或將子節點新增到選擇範圍。"`;
+
+exports[`should include 整數型 - 使用非整型表达式 {1}{2} 指定了{0, choice, 0#宽度|1#精度|2#谓词} 1`] = `"使用非整數型表達式 {1}{2} 指定了{0, choice, 0#寬度|1#精度|2#謂詞}"`;
+
+exports[`should include 數位簽章 - plugin.invalid.signature.result=''{0}'' 插件的数字签名验证失败并显示以下消息: ''{1}''。 1`] = `"plugin.invalid.signature.result=''{0}'' 延伸模組的數位簽章驗證失敗並顯示以下訊息: ''{1}''。"`;
+
+exports[`should include 文字游標 - editor.settings.keep.trailing.spaces.on.caret.line=保留文本光标行中的尾随空格 1`] = `"editor.settings.keep.trailing.spaces.on.caret.line=保留文字游標行中的尾隨空格"`;
+
+exports[`should include 新增 - button.add.separator=添加分隔符 (&S) 1`] = `"button.add.separator=新增分隔符 (&S)"`;
+
+exports[`should include 新建 - notification.content.server.restarted=服务器 {0} 没有响应。{1} 正在尝试重新建立与其的连接。某些执行结果可能会丢失。 1`] = `"notification.content.server.restarted=伺服器 {0} 沒有響應。{1} 正在嘗試重新建立與其的連線。某些執行結果可能會丟失。"`;
+
+exports[`should include 新建 - notification.title.server.restarted=正在重新建立到服务器的连接 1`] = `"notification.title.server.restarted=正在重新建立到伺服器的連線"`;
+
+exports[`should include 更高 - 或更高级别时 1`] = `"或更高級別時"`;
+
+exports[`should include 框 - tooltip.close.search.bar.escape=关闭搜索栏(Esc 键) 1`] = `"tooltip.close.search.bar.escape=關閉搜索框(Esc 鍵)"`;
+
+exports[`should include 構建 - about.box.build.number=内部版本号 #{0} 1`] = `"about.box.build.number=構建版本 #{0}"`;
+
+exports[`should include 標頭檔 - ，创建新的 Objective-C 类和头文件 1`] = `"，建立新的 Objective-C 類別和標頭檔"`;
+
+exports[`should include 標頭檔 - ，创建新的 Objective-C 类和头档案 1`] = `"，建立新的 Objective-C 類別和標頭檔"`;
+
+exports[`should include 模組 - title.module.sub.group=模块子组 1`] = `"title.module.sub.group=模組子組"`;
+
+exports[`should include 檢視 - press.completion.shortcut.again.for.more.results=再次按 {0} 可查看更多结果 1`] = `"press.completion.shortcut.again.for.more.results=再次按 {0} 可檢視更多結果"`;
+
+exports[`should include 欄位 - python.quick.fix.refactoring.set.default.value=您可以使用 {0} 导航字段和复选框。在选中该复选框的情况下，<ide/> 会将默认值内联到其他调用方，或将其设置为新参数的默认值。签名预览有助于您了解区别。现在，将默认值设置为 0。 1`] = `"python.quick.fix.refactoring.set.default.value=您可以使用 {0} 導覽欄位和複選框。在選中該複選框的情況下，<ide/> 會將預設值內聯到其他呼叫方，或將其設定為新參數的預設值。簽名預覽有助於您了解區別。現在，將預設值設定為 0。"`;
+
+exports[`should include 注 - actions.show.injection.points=显示注入点 1`] = `"actions.show.injection.points=顯示注入點"`;
+
+exports[`should include 注 - configurable.clangTidy.min.supported.clangTidy.version=注意: 支援 7.0.0 或更高版本的 Clang-Tidy 1`] = `"configurable.clangTidy.min.supported.clangTidy.version=注意: 支援 7.0.0 或更高版本的 Clang-Tidy"`;
+
+exports[`should include 物件 - ，对象 1`] = `"，物件"`;
+
+exports[`should include 產生器 - typescript.validation.generators.overload=重载签名无法被声明为生成器 1`] = `"typescript.validation.generators.overload=多載簽名無法被宣告為產生器"`;
+
+exports[`should include 登入 - dialog.message.login.empty=登录名为空 1`] = `"dialog.message.login.empty=登入名為空"`;
+
+exports[`should include 發送 - action.CIDR.Interactive.SendIncludesToCling.text=将包含的标头发送到 Cling 1`] = `"action.CIDR.Interactive.SendIncludesToCling.text=將包含的標頭發送到 Cling"`;
+
+exports[`should include 發送 - action.SendEventLogStatistics.description=将事件日志文件发送到 QA 服务器 1`] = `"action.SendEventLogStatistics.description=將事件日誌檔案發送到 QA 伺服器"`;
+
+exports[`should include 相依 - there.are.not.selected.module.dependencies.of.the.module.br.b.0.b=没有选择模块的模块依赖项: <br><b>{0}</b> 1`] = `"there.are.not.selected.module.dependencies.of.the.module.br.b.0.b=沒有選擇模組的模組相依項: <br><b>{0}</b>"`;
+
+exports[`should include 程式引數 - cmake.macro.program.arguments.description=当前 CMake 运行配置的程序实参 1`] = `"cmake.macro.program.arguments.description=當前 CMake 執行組態的程式引數"`;
+
+exports[`should include 籤 - 书签名称为空 1`] = `"書籤名稱為空"`;
+
+exports[`should include 縮排 - checkbox.show.indent.guides=显示缩进参考缐 1`] = `"checkbox.show.indent.guides=顯示縮排參考線"`;
+
+exports[`should include 背景 - label.start.search.in.background=在后台开始搜寻 1`] = `"label.start.search.in.background=在背景開始搜尋"`;
+
+exports[`should include 背景 - power.save.mode.on.notification.content=代码洞察和后台任务已禁用。 1`] = `"power.save.mode.on.notification.content=程式碼洞察和背景任務已停用。"`;
+
+exports[`should include 背景 - progress.window.empty.text=无后台任务 1`] = `"progress.window.empty.text=無背景任務"`;
+
+exports[`should include 自訂 - android.lint.inspections.clickable.view.accessibility=自定义视图中存在辅助功能 1`] = `"android.lint.inspections.clickable.view.accessibility=自訂檢視中存在輔助功能"`;
+
+exports[`should include 萬用字元 - 可以使用有界通配符 1`] = `"可以使用有界萬用字元"`;
+
+exports[`should include 蛇形命名 - 常量和函数时报告使用蛇形拼写法而不是骆驼拼写法的情况 1`] = `"常數和函式時報告使用蛇形命名法而不是駝峰式命名法的情況"`;
+
+exports[`should include 螢光筆 - action.ShowEditorHighlighterTokens.text=显示编辑器荧光笔令牌 1`] = `"action.ShowEditorHighlighterTokens.text=顯示編輯器螢光筆令牌"`;
+
+exports[`should include 表單 - error.form.file.is.invalid=窗体文件无效 1`] = `"error.form.file.is.invalid=表單檔案無效"`;
+
+exports[`should include 裝置 - android.logcat.clear.log.action.tooltip=清除设备上的 logcat 缓冲区 1`] = `"android.logcat.clear.log.action.tooltip=清除裝置上的 logcat 緩衝區"`;
+
+exports[`should include 複 - action.Github.Sync.Fork.description=相对于来源变基 GitHub 复刻仓库 1`] = `"action.Github.Sync.Fork.description=相對於來源重定基底 GitHub 複刻儲存庫"`;
+
+exports[`should include 複 - stash.keep.index.tooltip=如果选中此复选框，已建立索引的变更将保留在索引中。 1`] = `"stash.keep.index.tooltip=如果選中此複選框，已建立索引的變更將保留在索引中。"`;
+
+exports[`should include 複 - 将复合声明转换为多个变量声明。 1`] = `"將複合宣告轉換為多個變數宣告。"`;
+
+exports[`should include 複 - 程式码重复分析 1`] = `"程式碼重複分析"`;
+
+exports[`should include 複 - 重复上一条命令 1`] = `"重複上一條指令"`;
+
+exports[`should include 複 - ，并为重复语言结构设定初始大小。 1`] = `"，並為重複語言結構設定初始大小。"`;
+
+exports[`should include 解析 - could.not.resolve.constructor=无法解析构造函数 1`] = `"could.not.resolve.constructor=無法解析建構函式"`;
+
+exports[`should include 解構 - 可查看所有可用的代码生成选项。使用此菜单，可以快速生成构造函数/析构函数、getter/setter、各种运算符和实现/重写函数。
+在析构声明中添加缺失的组件。 1`] = `
+"可檢視所有可用的程式碼生成選項。使用此選單，可以快速生成建構函式/解構函式、getter/setter、各種運算符和實作/覆寫函式。
+在解構宣告中新增缺失的組件。"
+`;
+
+exports[`should include 解構 - 在析构声明中添加缺失的组件。 1`] = `"在解構宣告中新增缺失的組件。"`;
+
+exports[`should include 解構 - 在访问端将析构模式转换为一系列的引用或索引器表达式。 1`] = `"在存取端將解構模式轉換為一系列的參照或索引器表達式。"`;
+
+exports[`should include 記憶體 - action.DatabaseView.ForceUnloadModel.text=强制从内存中卸载模型 1`] = `"action.DatabaseView.ForceUnloadModel.text=強制從記憶體中移除模型"`;
+
+exports[`should include 記憶體 - debug.memory.view.process=内存视图 1`] = `"debug.memory.view.process=記憶體檢視"`;
+
+exports[`should include 記憶體 - in.memory.storage.presentable.name=内存存储 1`] = `"in.memory.storage.presentable.name=記憶體存儲"`;
+
+exports[`should include 記憶體 - low.memory.notification.title=内存不足 1`] = `"low.memory.notification.title=記憶體不足"`;
+
+exports[`should include 記憶體 - 附加内存代理 1`] = `"附加記憶體代理"`;
+
+exports[`should include 註 - DockerRegistryConfigurable.error.unsupporded.registry=不支持的注册表 1`] = `"DockerRegistryConfigurable.error.unsupporded.registry=不支持的註冊表"`;
+
+exports[`should include 註 - dbgp.proxy.ide.unregister.success=IDE 已成功注销 1`] = `"dbgp.proxy.ide.unregister.success=IDE 已成功註銷"`;
+
+exports[`should include 註 - js.strict.mode.inspection.fix=添加“use strict”杂注 1`] = `"js.strict.mode.inspection.fix=新增“use strict”雜註"`;
+
+exports[`should include 註 - permission.dialog.call.unavailable=注: 當前的 Java Runtime 不支持音訊/語音聊天，但捆綁的 JetBrains 執行時支援。<a href="/runtime">點擊此處切換執行時</a> 1`] = `"permission.dialog.call.unavailable=註: 當前的 Java Runtime 不支持音訊/語音聊天，但捆綁的 JetBrains 執行時支援。<a href="/runtime">點擊此處切換執行時</a>"`;
+
+exports[`should include 註 - 将注解放置到单独的 1`] = `"將註解放置到單獨的"`;
+
+exports[`should include 資源根 - action.Groovy.CheckResources.Rebuild.description=为资源根中的所有 Groovy 文件运行编译器，以检查编译问题 1`] = `"action.Groovy.CheckResources.Rebuild.description=為資源根中的所有 Groovy 檔案執行編譯器，以檢查編譯問題"`;
+
+exports[`should include 資源根 - icon.modules.testResourcesRoot.tooltip=测试资源根 1`] = `"icon.modules.testResourcesRoot.tooltip=測試資源根"`;
+
+exports[`should include 資源根 - resource.root.path.component.title=资源根 1`] = `"resource.root.path.component.title=資源根"`;
+
+exports[`should include 軟體套件 - command.create.package=创建软件包 1`] = `"command.create.package=建立軟體套件"`;
+
+exports[`should include 追蹤 - action.Vcs.CherryPick.description=所选提交由不同的 VCS 跟踪 1`] = `"action.Vcs.CherryPick.description=所選提交由不同的 VCS 追蹤"`;
+
+exports[`should include 連字 - checkbox.ligatures=字体连写 1`] = `"checkbox.ligatures=字體連字"`;
+
+exports[`should include 連接埠 - error.no.debug.listen.port=未指定的监听端口 1`] = `"error.no.debug.listen.port=未指定的監聽連接埠"`;
+
+exports[`should include 連線 - status.connected=已连接到目标 VM, 地址: ''{0}'' 1`] = `"status.connected=已連線到目標 VM, 地址: ''{0}''"`;
+
+exports[`should include 連線 - string.buffer.to.string.in.concatenation.display.name=连接中的 'StringBuilder.toString()' 1`] = `"string.buffer.to.string.in.concatenation.display.name=連線中的 'StringBuilder.toString()'"`;
+
+exports[`should include 進階 - search.advanced.settings=搜索高级设置 1`] = `"search.advanced.settings=搜尋進階設定"`;
+
+exports[`should include 運算子 - 操作符置于下一行 1`] = `"運算子置於下一行"`;
+
+exports[`should include 運行時版本 - about.box.jre=运行时版本: {0} {1} 1`] = `"about.box.jre=運行時版本: {0} {1}"`;
+
+exports[`should include 遞迴 - recursive.property.accessor=递归属性访问器 1`] = `"recursive.property.accessor=遞迴屬性存取器"`;
+
+exports[`should include 選單 - action.PopupMenu-return.description=打开子菜单或从选定的菜单项中调用操作。 1`] = `"action.PopupMenu-return.description=開啟子選單或從選定的選單項中呼叫動作。"`;
+
+exports[`should include 選單 - action.PopupMenu-selectChild.text=选择子菜单项 1`] = `"action.PopupMenu-selectChild.text=選擇子選單項"`;
+
+exports[`should include 選單 - action.PopupMenu-selectParent.text=选择父菜单项 1`] = `"action.PopupMenu-selectParent.text=選擇父選單項"`;
+
+exports[`should include 選單 - action.ShowMainMenu.text=显示主菜单 1`] = `"action.ShowMainMenu.text=顯示主選單"`;
+
+exports[`should include 醒目提示 - group.customfiletype.syntax.highlighting=语法高亮显示 1`] = `"group.customfiletype.syntax.highlighting=語法醒目提示"`;
+
+exports[`should include 醒目提示 - options.general.color.descriptor.highlighted.folding.border=文本//包含高亮显示的折叠文本 1`] = `"options.general.color.descriptor.highlighted.folding.border=文本//包含醒目提示的折疊文本"`;
+
+exports[`should include 醒目提示 - options.java.attribute.descriptor.inline.parameter.hint.highlighted=内联提示//参数//高亮 1`] = `"options.java.attribute.descriptor.inline.parameter.hint.highlighted=內聯提示//參數//醒目提示"`;
+
+exports[`should include 重定基底 - action.hg4idea.pull.rebase.tooltip=将变更集变基到作为目标的分支提示 1`] = `"action.hg4idea.pull.rebase.tooltip=將變更集重定基底到作為目標的分支提示"`;
+
+exports[`should include 重新導向 - <option name="在重定向运算符后添加空格" hit="在重定向运算符后添加空格" /> 1`] = `"<option name="在重新導向運算符後新增空格" hit="在重新導向運算符後新增空格" />"`;
+
+exports[`should include 重設 - action.reset.font.size=重置为 {0}pt 1`] = `"action.reset.font.size=重設為 {0}pt"`;
+
+exports[`should include 開啟 - action.Android.DeviceExplorer.Help.text=打开设备资源管理器帮助 1`] = `"action.Android.DeviceExplorer.Help.text=開啟裝置資源管理器幫助"`;
+
+exports[`should include 頁面 - 打开文件或项目。您也可以通过拖放到欢迎屏幕来打开项目或编辑文件。 1`] = `"開啟檔案或專案。您也可以通過拖放到歡迎頁面來開啟專案或編輯檔案。"`;
+
+exports[`should include 頁面 - 显示初始屏幕 1`] = `"顯示初始頁面"`;
+
+exports[`should include 類型 - action.TypeHierarchy.Subtypes.text=子类型层次结构 1`] = `"action.TypeHierarchy.Subtypes.text=子類型層次結構"`;
+
+exports[`should include 類型 - action.TypeHierarchy.Supertypes.text=父类型层次结构 1`] = `"action.TypeHierarchy.Supertypes.text=父類型層次結構"`;
+
+exports[`should include 顯示 - 顯示屏幕外圖像 1`] = `"顯示螢幕外圖片"`;
+
+exports[`should include 駝峰式命名 - <option name="切换骆驼拼写法" path="ActionManager" hit="切换骆驼拼写法/蛇形拼写法" /> 1`] = `"<option name="切換駝峰式命名法" path="ActionManager" hit="切換駝峰式命名法/蛇形命名法" />"`;
+
+exports[`should include 高階語言 - advanced.language.feature=高级语言功能: {0} 1`] = `"advanced.language.feature=高階語言功能: {0}"`;

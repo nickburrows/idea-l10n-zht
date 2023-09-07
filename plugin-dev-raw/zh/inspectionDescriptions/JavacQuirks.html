@@ -1,0 +1,23 @@
+<html>
+<body>
+報告現有的 Javac 問題、性能問題和不兼容性。
+例如，當需要處理許多嵌套調用時，類型推斷會變慢。
+<p>以下程式碼會觸發警告，因為 vararg 方法呼叫包含 50 個以上的多態實參：</p>
+<pre><code>
+  Arrays.asList(
+      Arrays.asList("a1", "b1"),
+      Arrays.asList("a2", "b2"),
+      ...
+      Arrays.asList("a100", "b100"));
+</code></pre>
+<p>快速修復程序新增了顯式類型實參，可以加快編譯和 IDE 的速度。</p>
+<pre><code>
+  //noinspection RedundantTypeArguments
+  Arrays.&lt;List&lt;String&gt;&gt;asList(
+      Arrays.asList("a1", "b1"),
+      Arrays.asList("a2", "b2"),
+      ...
+      Arrays.asList("a100", "b100"));
+</code></pre>
+</body>
+</html>

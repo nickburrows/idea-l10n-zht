@@ -1,0 +1,24 @@
+<html>
+<body>
+報告 TestNG <code>org.testng.annotations.Configuration</code> 註解。
+<p>最好使用現代 <code>@BeforeXXX</code>/<code>@AfterXXX</code> 註解來組態測試套件。</p>
+<p>範例：</p>
+<pre><code>
+  public class Test {
+    @Configuration(beforeSuite = true, afterTest = true)
+    public void afterBefore(){
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  public class Test {
+    @AfterTest()
+    @BeforeSuite()
+    public void afterBefore(){
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

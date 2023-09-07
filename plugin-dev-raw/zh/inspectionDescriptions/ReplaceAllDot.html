@@ -1,0 +1,25 @@
+<html>
+<body>
+報告對其中第一個實參為單一正則表達式元字元實參的 <code>String.replaceAll()</code> 或 <code>String.split()</code> 的呼叫。
+<p>
+  正則表達式元字元為 <code>.$|()[{^?*+\</code> 之一。 它們在正則表達式中有特殊的含義。
+  例如，呼叫 <code>"ab.cd".replaceAll(".", "-")</code> 將生成 <code>"-----"</code>，因為點符合任意字元。
+  很可能本意是轉義變體 <code>"\\."</code>。
+</p>
+<p>
+  還報告了將 <code>File.separator</code> 用作正則表達式的情況。 <code>File.separator</code> 具有平台特定的值。 它在 Linux 和 Mac 上等於 <code>/</code>，而在 Windows 上等於 <code>\</code>，這不是一個有效的正則表達式，因此這樣的程式碼無法移植。
+</p>
+
+<p><b>範例：</b></p>
+<pre><code>
+  s.replaceAll(".", "-");
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  s.replaceAll("\\.", "-");
+</code></pre>
+<!-- tooltip end -->
+<p>
+
+</body>
+</html>

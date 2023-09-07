@@ -1,0 +1,44 @@
+<html>
+<body>
+報告可以自動取代為增強型 <code>switch</code> 語句或表達式的 <code>switch</code> 語句。
+<p><b>範例：</b></p>
+<pre><code>
+  double getPrice(String fruit) {
+    // Switch 語句可以取代為增強型 'switch'
+    switch (fruit) {
+      case "Apple":
+        return 1.0;
+      case "Orange":
+        return 1.5;
+      case "Mango":
+        return 2.0;
+      default:
+        throw new IllegalArgumentException();
+    }
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>
+  double getPrice(String fruit) {
+    return switch (fruit) {
+      case "Apple" -> 1.0;
+      case "Orange" -> 1.5;
+      case "Mango" -> 2.0;
+      default -> throw new IllegalArgumentException();
+    };
+  }
+  </code></pre>
+<!-- tooltip end -->
+<p>
+<ul>
+  <li>
+    使用<b>僅在可以轉換為表達式時顯示警告</b>選項，不對轉換為 <code>switch</code> 語句發出警告。
+  </li>
+  <li>
+    使用<b>一個分支中轉換為 switch 表達式的最大語句數</b>選項，僅在每個分支的語句數小於給定的語句數時才對轉換為表達式發出警告。
+  </li>
+</ul>
+<p>僅當專案或模組的語言級別為 14 或更高時，此檢查才會報告。</p>
+<p><small>2019.1 最新變化</small></p>
+</body>
+</html>

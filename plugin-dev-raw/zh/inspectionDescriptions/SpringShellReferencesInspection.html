@@ -1,0 +1,24 @@
+<html>
+<body>
+<p>
+  報告 Spring Shell <code>org.springframework.shell.standard.ShellMethodAvailability</code> 註解內的無效參照。
+</p>
+<p>範例：</p>
+<pre><code lang="java">
+@ShellComponent
+public class MyCommands {
+
+    @ShellMethod("sum")
+    @ShellMethodAvailability("sumAvailability") // 註解值將被醒目提示為未解析的符號
+    public int sum(int a, int b) {
+        return a + b;
+    }
+
+    @ShellMethodAvailability("sumMethod") // 註解值將被醒目提示為未解析的符號
+    public Availability isSumAvailable() {
+        return Availability.available();
+    }
+}
+</code></pre>
+</body>
+</html>

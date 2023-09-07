@@ -1,0 +1,25 @@
+<html>
+<body>
+報告以下 JPA 註解和 API 方法中的未解析符號：
+<ul>
+  <li><code>AttributeOverride</code></li>
+  <li><code>AssociationOverride</code></li>
+  <li><code>MapsId</code></li>
+  <li><code>MapKey</code></li>
+  <li><code>Criteria API 方法</code></li>
+</ul>
+
+<p><b>範例：</b></p><br/>
+<pre><code lang="java">
+  @Entity
+  @AssociationOverrides({
+    @AssociationOverride(name = "missingAttribute", joinColumns = { ... }), // 錯誤：未解析的特性
+    @AssociationOverride(name = "existingAttribute", joinColumns = { ... })
+  })
+  public class JavaEntity {
+    @OneToOne
+    AnotherEntity existingAttribute;
+  }
+</code></pre>
+</body>
+</html>

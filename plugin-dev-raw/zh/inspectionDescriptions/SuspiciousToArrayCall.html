@@ -1,0 +1,26 @@
+<html>
+<body>
+報告對 <code>Collection.toArray()</code> 的可疑呼叫。
+<p>以下類型的呼叫視為可疑：</p>
+<ul>
+  <li>
+    陣列實參的類型與結果被轉換成的陣列類型不相同。
+  </li>
+  <li>
+    陣列實參的類型與集合宣告中的類型參數不符合。
+  </li>
+</ul>
+<p><b>範例：</b></p>
+<pre><code>
+void m1(List list) {
+  Number[] ns = (Number[]) list.toArray(new String[0]);
+}
+
+void m2(List&lt;Number&gt; list) {
+  Number[] ns = list.toArray(new String[0]);
+}
+</code></pre>
+
+
+</body>
+</html>

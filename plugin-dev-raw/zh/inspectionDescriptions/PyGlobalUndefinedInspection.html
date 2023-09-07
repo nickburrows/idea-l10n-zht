@@ -1,0 +1,21 @@
+<html>
+<body>
+<p>報告通過 <code>global</code> 語句定義的變數未在模組範圍中定義的問題。</p>
+<p><b>範例：</b></p>
+<pre><code>
+def foo():
+    global bar
+    print(bar)
+
+foo()
+</code></pre>
+<p>可以移動該全域變數宣告來進行修正：</p>
+<pre><code>
+global bar
+
+
+def foo():
+    print(bar)
+</code></pre>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<body>
+報告作為 <code>@Pattern</code> 參數的實參傳遞並從與指定模式不符合的 <code>@Pattern</code> 註解方法返回的表達式。
+<p><b>範例：</b></p>
+<pre><code>
+  @Pattern("\\d\\d-\\d\\d\\d") String getId() {
+    <b>return</b> "1";
+  }
+</code></pre>
+<p>
+  使用<b>標記非編譯時常量表達式</b>選項，可以讓檢查報告具有未知值的表達式，並提議新增取代 (<code>@Subst</code>) 註解
+</p>
+</body>
+</html>

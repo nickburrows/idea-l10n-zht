@@ -1,0 +1,36 @@
+<html>
+<body>
+報告在其中檢查 <code>this</code> 表達式的 <code>instanceof</code> 或 <code>getClass() == SomeClass.class</code> 的用法。
+<p>此類別表達式表明物件導向的設計失敗，應該取代為多態建構。</p>
+<p>範例：</p>
+<pre><code>
+class Super {
+  void process() {
+    if (this instanceof Sub) { // 警告
+      doSomething();
+    } else {
+      doSomethingElse();
+    }
+  }
+}
+  
+class Sub extends Super {}
+</code></pre>
+<p>要修正該問題，可以使用覆寫方法：</p>
+<pre><code>
+class Super {
+  void process() {
+    doSomethingElse();
+  }
+}
+  
+class Sub extends Super {
+  @Override
+  void process() {
+    doSomething();
+  }
+}  
+</code></pre>
+<!-- tooltip end -->
+</body>
+</html>

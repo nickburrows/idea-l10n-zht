@@ -1,0 +1,8 @@
+<options>
+  <configurable id="coverage" configurable_name="覆蓋率">
+    <option name="exclude註解" hit="Exclude註解 " />
+    <option name="java" hit="Java 覆蓋率" />
+    <option name="覆蓋率" hit="Java 覆蓋率" />
+    <option name="忽略隱式宣告的預設建構函式" hit="忽略隱式宣告的預設建構函式" />
+  </configurable>
+</options>

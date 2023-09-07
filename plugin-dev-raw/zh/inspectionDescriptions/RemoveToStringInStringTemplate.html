@@ -1,0 +1,19 @@
+<html>
+<body>
+報告對可以安全移除的字串模板中的 <code>toString()</code> 的呼叫。
+<p><b>範例：</b></p>
+<pre><code>  fun foo(a: Int, b: Int) = a + b
+
+  fun test(): String {
+      return "Foo: ${foo(0, 4).toString()}" // 'toString()' 冗餘
+  }
+</code></pre>
+<p>在套用快速修復後：</p>
+<pre><code>  fun foo(a: Int, b: Int) = a + b
+
+  fun test(): String {
+      return "Foo: ${foo(0, 4)}"
+  }
+</code></pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+報告區域變數宣告和存取器，以記錄增強型 'for' 語句（這些語句通常更緊湊）中可被取代為模式變數的組件。
+<p><b>範例：</b></p>
+<pre><code>
+record Record(Integer x, String y) {
+}
+
+public static void test(List&lt;Record&gt; records) {
+    for (Record record : records) {
+        System.out.println(record.y());
+        Integer x = record.x;
+        System.out.println(x);
+    }
+}
+</code></pre>
+<p>可以取代為：</p>
+<pre><code>
+record Record(Integer x, String y) {
+}
+
+public static void test(List&lt;Record&gt; records) {
+    for (Record(Integer x, String y) : records) {
+        System.out.println(y);
+        System.out.println(x);
+    }
+}
+</code></pre>
+<!-- tooltip end -->
+<p>僅當專案或模組的語言級別為 20 或更高時，此檢查才會報告。</p>
+
+<ul>
+  <li>使用<b>嵌套深度限制</b>選項指定要報告的最大嵌套解構模式數</li>
+  <li>使用<b>要解構的記錄組件的最大數量</b>選項指定要在解構模式中使用的記錄可以包含的組件的最大數量</li>
+  <li>使用<b>未使用的記錄組件的最大數量</b>選項指定 <code>for</code> 語句中未使用的組件的最大數量</li>
+</ul>
+
+<p><small>2023.1 最新變化</small></p>
+</body>
+</html>

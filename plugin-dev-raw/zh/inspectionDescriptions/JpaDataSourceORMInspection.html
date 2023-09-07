@@ -1,0 +1,38 @@
+<html>
+<body>
+如果無法在組態的資料來源中解析，則報告以下 Persistence ORM 註解中的參照：<br/>
+<ul>
+  <li> Table</li>
+  <li> Column</li>
+  <li> [Any]To[Any]</li>
+  <li> JoinColumn / JoinTable</li>
+  <li> NamedQuery / NativeQuery</li>
+  <li> Embeddable</li>
+</ul><br/>
+
+建議重新整理資料來源或分配不同的資料來源。<br/>
+
+<p><b>範例資料庫表：</b></p>
+<pre><code lang="sql">
+  CREATE TABLE DATA_TABLE (
+    ID INTEGER,
+    DATA VARCHAR(100)
+);
+</code></pre><br/>
+
+<p><b>範例 JPA 實體類別：</b></p>
+<pre><code lang="java">
+  @Entity
+  @Table(name = "UNKNOWN_TABLE") // 未解決的參照
+  public class JavaEntity {
+    @Column(name = "ID") // 無法解析未定義的表中的列
+    Integer id;
+  }
+</code></pre><br/>
+
+<!-- tooltip end -->
+<p>
+  <b>注意</b>：資料來源可以通過 `分配資料來源` 動作或實體類別的相應裝訂區域圖標進行組態
+</p>
+</body>
+</html>

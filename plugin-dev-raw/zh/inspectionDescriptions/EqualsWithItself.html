@@ -1,0 +1,24 @@
+<html>
+<body>
+報告對 <code>equals()</code>、<code>compareTo()</code> 或比較一個物件是否與自身相等的類似方法的呼叫。
+這些方法的方法約定指定了此類別呼叫將始終為 <code>equals()</code> 返回 <code>true</code> 或為 <code>compareTo()</code> 返回 <code>0</code>。
+該檢查還會檢查對 <code>Objects.equals()</code>、<code>Objects.deepEquals()</code>、<code>Arrays.equals()</code>、<code>Comparator.compare()</code>、測試框架（JUnit、TestNG、AssertJ）的 <code>assertEquals()</code> 方法、<code>Integer.compare()</code>、<code>Integer.compareUnsigned()</code> 以及類似方法的呼叫。
+<p><b>範例：</b></p>
+<pre><code>
+  class Foo {
+    boolean foo(Object o) {
+        return o.equals(o); // 警告
+    }
+
+    boolean bar(String[] ss) {
+        return Arrays.equals(ss, ss); // 警告
+    }
+}
+</code></pre>
+<!-- tooltip end -->
+<p>
+  使用該選項可以僅報告對不可擴展的庫類別（如 <code>String</code>）和基元類型的測試斷言。
+  當測試 <code>equals</code> 方法時，此選項可能很有用。
+</p>
+</body>
+</html>

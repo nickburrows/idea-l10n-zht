@@ -1,0 +1,21 @@
+<html>
+<body>
+報告在迴圈條件中使用且未在迴圈內更新的任何變數和參數。
+<p>此類別變數和參數通常被錯誤使用，因為如果執行它們可能會導致無限迴圈。</p>
+<p>範例：</p>
+<pre><code>
+  void loopDoesNotLoop(boolean b) {
+    while (b) {
+      System.out.println();
+      break;
+    }
+  }
+</code></pre>
+<!-- tooltip end -->
+<p>組態檢查：</p>
+<p>
+  如果條件可以間接更新（例如，通過呼叫的方法或從另一個執行緒並發更新），請使用 <b>忽略可能的非本地更改</b> 選項來停用此檢查。
+</p>
+
+</body>
+</html>

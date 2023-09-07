@@ -1,0 +1,33 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="按鍵映射">
+    <option name="" path="ActionManager" hit="" />
+    <option name="code" path="ActionManager" hit="Code With Me" />
+    <option name="me" path="ActionManager" hit="Code With Me" />
+    <option name="with" path="ActionManager" hit="Code With Me" />
+    <option name="code" path="ActionManager" hit="Code With Me 會話" />
+    <option name="me" path="ActionManager" hit="Code With Me 會話" />
+    <option name="with" path="ActionManager" hit="Code With Me 會話" />
+    <option name="會話" path="ActionManager" hit="Code With Me 會話" />
+    <option name="code" path="ActionManager" hit="Code With Me: 權限…" />
+    <option name="me" path="ActionManager" hit="Code With Me: 權限…" />
+    <option name="with" path="ActionManager" hit="Code With Me: 權限…" />
+    <option name="權限" path="ActionManager" hit="Code With Me: 權限…" />
+    <option name="and" path="ActionManager" hit="Collect Host and Client logs" />
+    <option name="client" path="ActionManager" hit="Collect Host and Client logs" />
+    <option name="collect" path="ActionManager" hit="Collect Host and Client logs" />
+    <option name="host" path="ActionManager" hit="Collect Host and Client logs" />
+    <option name="logs" path="ActionManager" hit="Collect Host and Client logs" />
+    <option name="join" path="ActionManager" hit="Join Session…" />
+    <option name="session" path="ActionManager" hit="Join Session…" />
+    <option name="複製會話鏈接" path="ActionManager" hit="複製會話鏈接" />
+    <option name="提交問題" path="ActionManager" hit="提交問題…" />
+    <option name="管理授權" path="ActionManager" hit="管理授權…" />
+    <option name="結束會話" path="ActionManager" hit="結束會話" />
+    <option name="d" path="ActionManager" hit="偵錯(D)上下文組態" />
+    <option name="上下文組態" path="ActionManager" hit="偵錯(D)上下文組態" />
+    <option name="偵錯" path="ActionManager" hit="偵錯(D)上下文組態" />
+    <option name="u" path="ActionManager" hit="執行(U)上下文組態" />
+    <option name="上下文組態" path="ActionManager" hit="執行(U)上下文組態" />
+    <option name="執行" path="ActionManager" hit="執行(U)上下文組態" />
+  </configurable>
+</options>

@@ -1,0 +1,15 @@
+<html>
+<body>
+報告受自動裝箱轉換（將基元值自動包裝為物件）影響的表達式。
+盡量不使用物件，而是使用基元。 它可能會顯著影響性能。
+<p><b>範例：</b></p>
+<pre><code>Integer x = 42;</code></pre>
+<p>該快速修復會將轉換設為顯式：</p>
+<pre><code>Integer x = Integer.valueOf(42);</code></pre>
+<!-- tooltip end -->
+<p>
+  <i>自動裝箱</i>在 Java 5 中出現。
+  此檢查有助於為向後相容早期 Java 版本而降級。
+</p>
+</body>
+</html>

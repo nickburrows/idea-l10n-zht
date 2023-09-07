@@ -1,0 +1,23 @@
+<html>
+<body>
+報告可以取代為更具體的常用類別或接口的實作或擴展的類別或接口。
+<p>為進行此檢查，超類別需位於專案原始檔中，並且專案需要使用 IntelliJ IDEA 建置系統。</p>
+<p><b>範例：</b></p>
+<pre><code>
+  class MyInheritor implements A {} // B 針對 A 參照提供建議
+
+  interface A {}
+
+  abstract class B implements A {}
+
+  abstract class C1 extends B {}
+  abstract class C2 extends B {}
+  abstract class C3 extends B {}
+  abstract class C4 extends B {}
+  abstract class C5 extends B {}
+</code></pre>
+<!-- tooltip end -->
+<p>預設情況下，此檢查不會在編輯器中醒目提示問題，而是只提供快速修復。</p>
+<p><small>2017.2 最新變化</small>
+</body>
+</html>
